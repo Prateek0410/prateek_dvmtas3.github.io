@@ -42,11 +42,16 @@ videooooo.addEventListener('mouseleave', () => {
   const hamburger = document.getElementById('hamburger');
   const mainbody  = document.getElementById('main-body');
   const btn2 = document.getElementById('cross');
+  const btn11 = document.getElementById('cross-mobile');
   btn.onclick =()=>{
     hamburger.style.display='block';
     mainbody.style.display='none';
   }
   btn2.onclick =()=>{
+    mainbody.style.display='block';
+    hamburger.style.display='none';
+  }
+  btn11.onclick =()=>{
     mainbody.style.display='block';
     hamburger.style.display='none';
   }
