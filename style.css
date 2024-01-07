@@ -1186,6 +1186,13 @@ button{
     #arrow-left,#arrow-left-duplicate,#arrow-right-duplicate,#arrow-right{
         display: none;
     }
+    #cut-near-text{
+        font-size: 2rem;
+        max-width: 35rem;
+    }
+    #cut-rhs{
+        margin-top: -30rem;
+    }
 }
 @media(max-width:970px){
 #foot2,#foot3{
